@@ -7,7 +7,7 @@ import crypto from 'crypto'
  * @param {number} size
  * @returns {string}
  */
-export function id(size) {
+export function newId(size) {
   return base58.encode(crypto.randomBytes(size))
 }
 /**
