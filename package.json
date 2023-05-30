@@ -1,0 +1,27 @@
+{
+  "name": "@v57/id",
+  "version": "1.0.0",
+  "description": "Generates random id in base58 format",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v57/js-id.git"
+  },
+  "keywords": [
+    "id"
+  ],
+  "author": "v57",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v57/js-id/issues"
+  },
+  "homepage": "https://github.com/v57/js-id#readme",
+  "dependencies": {
+    "bs58": "^5.0.0"
+  }
+}
