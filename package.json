@@ -1,11 +1,12 @@
 {
   "name": "@v57/id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates random id in base58 format",
   "main": "index.js",
   "module": "index.js",
-  "files": ["index.js"],
+  "files": ["index.js", "index.d.ts"],
   "type": "module",
+  "types": "index.d.ts",
   "scripts": {
     "ts": "npx -p typescript tsc index.js -d --allowJs --emitDeclarationOnly --removeComments"
   },
