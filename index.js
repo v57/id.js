@@ -1,7 +1,7 @@
 'use strict'
 
-import base58 from 'bs58'
-import crypto from 'crypto'
+const base58 = require('bs58')
+const crypto = require('crypto')
 
 // id generator
 /**
@@ -9,7 +9,7 @@ import crypto from 'crypto'
  * @param {number} size
  * @returns {string}
  */
-export function newId(size) {
+module.exports.newId = function(size) {
   return base58.encode(crypto.randomBytes(size))
 }
 /**
@@ -18,7 +18,7 @@ export function newId(size) {
  * @param {(id: string) => any?} contains
  * @returns {Promise<string>}
  */
-export async function uniqueId(size, contains) {
+module.exports.uniqueId = async function(size, contains) {
   while (true) {
     const id = base58.encode(crypto.randomBytes(size))
     if (!await contains(id)) return id
