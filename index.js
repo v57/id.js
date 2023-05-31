@@ -1,3 +1,5 @@
+'use strict'
+
 import base58 from 'bs58'
 import crypto from 'crypto'
 
