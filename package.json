@@ -1,6 +1,6 @@
 {
   "name": "@v57/id",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generates random id in base58 format",
   "main": "index.js",
   "files": ["index.js", "index.d.ts"],
