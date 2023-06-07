@@ -1,6 +1,6 @@
 {
   "name": "@v57/id",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generates random id in base58 format",
   "main": "index.js",
   "files": ["index.js", "index.d.ts"],
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/v57/js-id.git"
+    "url": "git+https://github.com/v57/id.js.git"
   },
   "keywords": ["id"],
   "author": "v57",
   "license": "MIT",
   "engines": { "node": ">= 8.0.0" },
   "bugs": {
-    "url": "https://github.com/v57/js-id/issues"
+    "url": "https://github.com/v57/id.js/issues"
   },
-  "homepage": "https://github.com/v57/js-id#readme",
+  "homepage": "https://github.com/v57/id.js#readme",
   "dependencies": { "bs58": "^5.0.0" }
 }
