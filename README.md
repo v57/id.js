@@ -3,7 +3,7 @@
 ## Comparing to others
 ### 🗿 77342993 **`snowflake`** - unique by design, exposed to scrapping
 ### 🗿 iF46TNQVP1a **`base58 64bit`** - unlikely to collide, but still exposed
-### 🤡 8g3GgFVUYrQrfepEQrD63v **`base58 128bit`** - shortest, no chance of collision
+### 🗿 8g3GgFVUYrQrfepEQrD63v **`base58 128bit`** - shortest, no chance of collision
 ### 🤡 45HHx2+f8Y8pisEqszsogA== **`base64 128bit`** - ugly in urls
 ### 🤡 72868a6f0c1b13ebe96fdd39f64c95c4 **`hex 128bit`** - lots of unused characters
 ### 🤡 6310304c-450b-4670-bbb0-eb8e80e7fd46 **`uuid 128bit`** - fastest to generate, but consumes lots of space
