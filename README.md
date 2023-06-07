@@ -1,4 +1,19 @@
-# Random id generator
+# Base58 ID Generator: Generate Unique IDs in Node.js
+
+The Base58 Random ID Generator is a powerful Node.js package that enables developers to effortlessly generate unique and secure identifiers in the Base58 format. By leveraging the simplicity and efficiency of Base58 encoding, this package provides a reliable method for generating random IDs that are ideal for various use cases, including database keys, short URLs, cryptographic nonces, and more.
+
+With this package, you can quickly generate IDs that are resistant to human error and ensure compatibility across different systems. Base58 encoding eliminates ambiguous characters, such as 0 (zero), O (uppercase o), I (uppercase i), and l (lowercase L), which can cause confusion in certain contexts. This ensures that the generated IDs are easier to read, write, and communicate accurately.
+
+The Base58 Random ID Generator offers flexibility and customizability, allowing you to specify the desired length of the generated IDs. Additionally, it provides a cryptographically secure source of randomness, ensuring that the generated IDs are highly unpredictable and resistant to brute-force attacks.
+
+## Key Features:
+Generate unique identifiers in Base58 format
+Suitable for diverse use cases
+Ensures compatibility and readability
+Customizable ID length
+Utilizes secure source of randomness
+Simple integration into Node.js applications
+Simplify ID generation in your Node.js applications with the Base58 ID Generator. Create unique and secure IDs effortlessly while ensuring compatibility and readability.
 
 ## Comparing to others
 ### 🗿 77342993 **`snowflake`** - unique by design, exposed to scrapping
