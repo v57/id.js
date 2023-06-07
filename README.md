@@ -1,9 +1,24 @@
-# Random id generator
+# Base58 ID Generator: Generate Unique IDs in Node.js
+
+The Base58 Random ID Generator is a powerful Node.js package that enables developers to effortlessly generate unique and secure identifiers in the Base58 format. By leveraging the simplicity and efficiency of Base58 encoding, this package provides a reliable method for generating random IDs that are ideal for various use cases, including database keys, short URLs, cryptographic nonces, and more.
+
+With this package, you can quickly generate IDs that are resistant to human error and ensure compatibility across different systems. Base58 encoding eliminates ambiguous characters, such as 0 (zero), O (uppercase o), I (uppercase i), and l (lowercase L), which can cause confusion in certain contexts. This ensures that the generated IDs are easier to read, write, and communicate accurately.
+
+The Base58 Random ID Generator offers flexibility and customizability, allowing you to specify the desired length of the generated IDs. Additionally, it provides a cryptographically secure source of randomness, ensuring that the generated IDs are highly unpredictable and resistant to brute-force attacks.
+
+## Key Features:
+Generate unique identifiers in Base58 format
+Suitable for diverse use cases
+Ensures compatibility and readability
+Customizable ID length
+Utilizes secure source of randomness
+Simple integration into Node.js applications
+Simplify ID generation in your Node.js applications with the Base58 ID Generator. Create unique and secure IDs effortlessly while ensuring compatibility and readability.
 
 ## Comparing to others
 ### 🗿 77342993 **`snowflake`** - unique by design, exposed to scrapping
 ### 🗿 iF46TNQVP1a **`base58 64bit`** - unlikely to collide, but still exposed
-### 🤡 8g3GgFVUYrQrfepEQrD63v **`base58 128bit`** - shortest, no chance of collision
+### 🗿 8g3GgFVUYrQrfepEQrD63v **`base58 128bit`** - shortest, no chance of collision
 ### 🤡 45HHx2+f8Y8pisEqszsogA== **`base64 128bit`** - ugly in urls
 ### 🤡 72868a6f0c1b13ebe96fdd39f64c95c4 **`hex 128bit`** - lots of unused characters
 ### 🤡 6310304c-450b-4670-bbb0-eb8e80e7fd46 **`uuid 128bit`** - fastest to generate, but consumes lots of space
